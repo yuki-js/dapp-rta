@@ -1,0 +1,38 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  background: #ffffff;
+}
+.tabPage:global(.__wab_instance) {
+  position: relative;
+}
+.title:global(.__wab_instance) {
+  position: relative;
+}
+.box__mXcKe {
+  height: auto;
+}
+.deadline:global(.__wab_instance) {
+  position: relative;
+}
+.box__bb0Sf {
+  height: auto;
+}
+.box__zbs4D {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  margin: 12px;
+}
+.next:global(.__wab_instance) {
+  width: 251px;
+  height: auto;
+  flex-shrink: 0;
+}

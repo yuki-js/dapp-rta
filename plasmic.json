@@ -1,0 +1,195 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "./"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "7CKZhD2BVpe8oYNyjz4EUo",
+      "projectName": "dapp-rta-vote",
+      "version": "latest",
+      "cssFilePath": "plasmic/dapp_rta_vote/plasmic_dapp_rta_vote.module.css",
+      "components": [
+        {
+          "id": "bnO-AW974wUz",
+          "name": "TabPage",
+          "type": "managed",
+          "projectId": "7CKZhD2BVpe8oYNyjz4EUo",
+          "renderModuleFilePath": "plasmic/dapp_rta_vote/PlasmicTabPage.tsx",
+          "importSpec": {
+            "modulePath": "TabPage.tsx"
+          },
+          "cssFilePath": "plasmic/dapp_rta_vote/PlasmicTabPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "4sUtTUrWnT",
+          "name": "Tab",
+          "type": "managed",
+          "projectId": "7CKZhD2BVpe8oYNyjz4EUo",
+          "renderModuleFilePath": "plasmic/dapp_rta_vote/PlasmicTab.tsx",
+          "importSpec": {
+            "modulePath": "Tab.tsx"
+          },
+          "cssFilePath": "plasmic/dapp_rta_vote/PlasmicTab.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ntX9agb1NR",
+          "name": "Start",
+          "type": "managed",
+          "projectId": "7CKZhD2BVpe8oYNyjz4EUo",
+          "renderModuleFilePath": "plasmic/dapp_rta_vote/PlasmicStart.tsx",
+          "importSpec": {
+            "modulePath": "../pages/start.tsx"
+          },
+          "cssFilePath": "plasmic/dapp_rta_vote/PlasmicStart.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "8ig3uWjRld",
+          "name": "Input",
+          "type": "managed",
+          "projectId": "7CKZhD2BVpe8oYNyjz4EUo",
+          "renderModuleFilePath": "plasmic/dapp_rta_vote/PlasmicInput.tsx",
+          "importSpec": {
+            "modulePath": "Input.tsx"
+          },
+          "cssFilePath": "plasmic/dapp_rta_vote/PlasmicInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "sdZdmGowFd",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "7CKZhD2BVpe8oYNyjz4EUo",
+          "renderModuleFilePath": "plasmic/dapp_rta_vote/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/dapp_rta_vote/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "JHk19r9QqJ",
+          "name": "Vote",
+          "type": "managed",
+          "projectId": "7CKZhD2BVpe8oYNyjz4EUo",
+          "renderModuleFilePath": "plasmic/dapp_rta_vote/PlasmicVote.tsx",
+          "importSpec": {
+            "modulePath": "../pages/vote.tsx"
+          },
+          "cssFilePath": "plasmic/dapp_rta_vote/PlasmicVote.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "4Bd4Yhsd_bl",
+          "name": "StackPage",
+          "type": "managed",
+          "projectId": "7CKZhD2BVpe8oYNyjz4EUo",
+          "renderModuleFilePath": "plasmic/dapp_rta_vote/PlasmicStackPage.tsx",
+          "importSpec": {
+            "modulePath": "StackPage.tsx"
+          },
+          "cssFilePath": "plasmic/dapp_rta_vote/PlasmicStackPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "CYSztTUGQI",
+          "name": "Share",
+          "type": "managed",
+          "projectId": "7CKZhD2BVpe8oYNyjz4EUo",
+          "renderModuleFilePath": "plasmic/dapp_rta_vote/PlasmicShare.tsx",
+          "importSpec": {
+            "modulePath": "../pages/share/[tx].tsx"
+          },
+          "cssFilePath": "plasmic/dapp_rta_vote/PlasmicShare.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "vVq_ENM8si",
+          "name": "Ballot",
+          "type": "managed",
+          "projectId": "7CKZhD2BVpe8oYNyjz4EUo",
+          "renderModuleFilePath": "plasmic/dapp_rta_vote/PlasmicBallot.tsx",
+          "importSpec": {
+            "modulePath": "../pages/ballot/[tx].tsx"
+          },
+          "cssFilePath": "plasmic/dapp_rta_vote/PlasmicBallot.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "TR24vsJktu",
+          "name": "Index",
+          "type": "managed",
+          "projectId": "7CKZhD2BVpe8oYNyjz4EUo",
+          "renderModuleFilePath": "plasmic/dapp_rta_vote/PlasmicIndex.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/dapp_rta_vote/PlasmicIndex.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "tl3mxo0fWy",
+          "name": "BigIconButton",
+          "type": "managed",
+          "projectId": "7CKZhD2BVpe8oYNyjz4EUo",
+          "renderModuleFilePath": "plasmic/dapp_rta_vote/PlasmicBigIconButton.tsx",
+          "importSpec": {
+            "modulePath": "BigIconButton.tsx"
+          },
+          "cssFilePath": "plasmic/dapp_rta_vote/PlasmicBigIconButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "codeComponents": [],
+      "projectApiToken": "oE1bH0wkQ7scNOqjRsxC0rOdWKaYlIVmuEq8xJOsepD9u6MgFDsgdyvdXJXbKOYKOL7u03fyNPf6wBpWeA"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "tId95ECdAsJK",
+        "name": "Screen",
+        "projectId": "7CKZhD2BVpe8oYNyjz4EUo",
+        "contextFilePath": "plasmic/dapp_rta_vote/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.157",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.157/dist/plasmic.schema.json"
+}

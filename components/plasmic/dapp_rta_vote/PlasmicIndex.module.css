@@ -1,0 +1,105 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  background: #ffffff;
+}
+.box__gQ2D {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  background: #fdfaef repeat;
+}
+.box__p90Eg {
+  position: relative;
+  font-size: 30px;
+}
+.box__oqLrt {
+  position: relative;
+}
+.box__neHuf {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 183px;
+  height: 322px;
+  flex-shrink: 0;
+  padding: 6px;
+}
+.box__neHuf > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.box__neHuf > :global(.__wab_flex-container) > *,
+.box__neHuf > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 0px;
+}
+.connWc:global(.__wab_instance) {
+  position: relative;
+  margin-top: calc(10px + 0px) !important;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.img__cfrt1 {
+  position: relative;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.connMm:global(.__wab_instance) {
+  position: relative;
+  margin-top: calc(10px + 0px) !important;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.img__oRoXk {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.connRpc:global(.__wab_instance) {
+  position: relative;
+  margin-top: calc(10px + 0px) !important;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.box__gqkUb {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.box__qkpAr {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  align-self: center;
+  font-size: 8px;
+  min-width: 0;
+}
